@@ -1,4 +1,4 @@
-FROM php:7.2-apache
+FROM php:8.2-apache
 
 # 1. Install development packages and clean up apt cache.
 RUN apt-get update && apt-get install -y \
