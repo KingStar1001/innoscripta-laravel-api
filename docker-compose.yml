@@ -14,7 +14,6 @@ services:
             - APACHE_RUN_GROUP=#1000
         volumes:
             - .:/var/www/html
-        command: sh -c "composer install && php artisan key:generate && php artisan jwt:secret && php artisan migrate"
         networks:
             backend:
                 aliases:
