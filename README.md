@@ -18,6 +18,7 @@ Run this command in terminal.
 ```
 docker-compose build && docker-compose up -d && docker-compose logs -f
 ```
+Once all the containers are up and running, we can check them by `docker ps`
 
 ### 4. Composer and artisan:
 - **Create vendor**
@@ -43,9 +44,7 @@ NEWSAPI_TOKEN={your_api_key}
 GUARDIAN_TOKEN={your_api_key}
 NYTIMES_TOKEN={your_api_key}
 ```
-### 6. Check running containers
-Once all the containers are up and running, we can check them by `docker ps`
-
+### Happy Testing !!!
 You can check if the API server is running in http://localhost:8000
 
 
