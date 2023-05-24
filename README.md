@@ -12,6 +12,9 @@ cd innoscripta-laravel-api
 
 ### 2. Make .env file
 Copy `.env.example` file and rename `.env`
+```
+cp .env.example .env
+```
 
 ### 3. Build the environment and Run
 Run this command in terminal.
