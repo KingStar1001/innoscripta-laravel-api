@@ -36,7 +36,6 @@ RUN docker-php-ext-install \
     calendar \
     iconv \
     intl \
-    mbstring \
     opcache \
     pdo_mysql \
     zip
