@@ -44,14 +44,6 @@ RUN docker-php-ext-install \
 # 5. Composer.
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-WORKDIR /var/www/html
-
-COPY ./docker/entrypoint.sh /entrypoint.sh
-
-RUN chmod +x /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
-
 # 6. We need a user with the same UID/GID as the host user
 # so when we execute CLI commands, all the host file's permissions and ownership remain intact.
 # Otherwise commands from inside the container would create root-owned files and directories.
