@@ -27,15 +27,15 @@ docker-compose exec laravel-app composer install
 ```
 - **Key generate**
 ```
-docker-compose exec php artisan key:generate
+docker-compose exec laravel-app php artisan key:generate
 ```
 - **JWT token generate**
 ```
-docker-compose exec php artisan jwt:secret
+docker-compose exec laravel-app php artisan jwt:secret
 ```
 - **Migrate tables**
 ```
-docker-compose exec php artisan migrate
+docker-compose exec laravel-app php artisan migrate
 ```
 ### 5. Set API keys
 Input your News API keys in `.env`
