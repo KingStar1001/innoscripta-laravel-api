@@ -50,4 +50,4 @@ NYTIMES_TOKEN={your_api_key}
 ### Happy Testing !!!
 You can check if the API server is running in http://localhost:8000
 
-
+***[front end link](https://github.com/KingStar1001/innoscripta-react-news-app)***
