@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     g++ \
     git \
+    libzip-dev \
     libbz2-dev \
     libfreetype6-dev \
     libicu-dev \
